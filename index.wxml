@@ -1,0 +1,8 @@
+<!--547's index.wxml-->
+<view class="box">
+  <!--<view class='title'>随机数求和</view>-->
+  <view>产生的7个彩票号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <!--<view>随机数列的和为：{{sum}}</view>-->
+  <button type='primary' bindtap='newRand'>重新生成</button>
+</view>
